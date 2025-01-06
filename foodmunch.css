@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Roboto;
+
+}
+
+#custom_link1 {
+    color: grey;
+}
+
+#custom_link1:hover {
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+.banner_section_bg_container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner_section_content {
+    color: white;
+
+}
+
+.banner_section_heading {
+    font-size: 5vw;
+    font-weight: 300;
+}
+
+.banner_section_para {
+
+    font-family: "Roboto";
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+.banner_section_button_1,
+.healthy_food_section_discription_button,
+.dhelivary_section_discription_button,
+.thanking-customers-section-button {
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+
+}
+
+.healthy_food_section_discription_button,
+.dhelivary_section_discription_button,
+.thanking-customers-section-button:focus {
+    outline: none;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.banner_section_button_1:hover {
+    background-color: transparent;
+    color: #d0b200;
+    border-width: 1px;
+    border-color: #d0b200;
+    transform: scale(1.1);
+
+}
+
+.banner_section_button_1:active {
+    background-color: #d0b200;
+    /* color: black; */
+    color: white;
+    border-width: 0;
+    border-color: #d0b200;
+}
+
+.banner_section_button_1:focus {
+    outline: none;
+}
+
+.banner_section_button_2 {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.banner_section_button_2:hover {
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    transform: scale(1.1);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.banner_section_button_2:active {
+    background-color: transparent;
+    /* color: #d0b200; */
+    color: white;
+    border-width: 1;
+    border-color: #d0b200;
+}
+
+.banner_section_button_2:focus {
+    outline: none;
+}
+
+.why_choose_us_section {
+    scroll-margin-top: 95px;
+    background-color: #f9fbfe;
+
+}
+
+.wcu_section_heading,
+.menu_section_heading,
+.healthy_food_section_discription_head,
+.dhelivary_section_discription_head,
+.thanking-customers-section-head,
+.follow_us_section_head {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.wcu_section_para,
+.healthy_food_section_discription_para,
+.dhelivary_section_discription_para,
+.thanking-customers-section-para {
+    color: #5a7184;
+    font-size: 16px;
+
+}
+
+.wcu_cards {
+    text-align: center;
+    height: 100%;
+    border-radius: 16px;
+    background-color: white;
+    transition: 0.3s ease;
+    border: 1px solid #e5eaf4;
+}
+
+.wcu_cards:hover {
+    transform: scale(1.1);
+}
+
+.wcu_cards_image {
+    height: 90px;
+
+}
+
+.wcu_cards_head {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu_cards_discription {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offer_text {
+    font-weight: 600;
+    font-style: italic;
+    color: #323f4b;
+}
+
+.explore_menu_section {
+    scroll-margin-top: 95px;
+    background-color: white;
+}
+
+.menu_section_card {
+    border-radius: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.menu_section_card:hover {
+    border-radius: 16px;
+    transform: scale(0.9);
+}
+
+
+
+
+.menu_section_card_img {
+    width: 90%;
+    border-radius: 23px;
+
+}
+
+.healthy_food_section_discription_button,
+.dhelivary_section_discription_button,
+.thanking-customers-section-button {
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+
+}
+
+.healthy_food_section_discription_button:hover {
+    transform: scale(1.2);
+
+}
+
+.dhelivary_section_discription_button:hover {
+    transform: scale(1.2);
+}
+
+.thanking-customers-section-button:hover {
+    transform: scale(1.2);
+}
+
+.thanking-customers-section-button {
+    background-image: linear-gradient(#d0b200, #a58d00);
+}
+
+.menu_item_title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.explore_menu_card_link {
+    color: #d0b200;
+}
+
+.arrow_icon {
+    color: #d0b200;
+}
+
+.healthy_food_section {
+    scroll-margin-top: 95px;
+    background-color: #f9fbfe;
+}
+
+.healthy_food_section_img,
+.dhelivary_section_img {
+    width: 100%;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.icon_background {
+    background-color: #faf7e8;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    padding: 22px 20px 22px 24px;
+    margin: 10px;
+}
+
+.icon_background:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px #faf7e8;
+}
+
+.gift_voucher_model {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
